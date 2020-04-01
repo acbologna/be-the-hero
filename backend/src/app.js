@@ -10,5 +10,5 @@ app.use(express.json());
 app.use(routes);
 app.use(errors())
 
-module.export = app;
+module.exports = app;
 
